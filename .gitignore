@@ -1,6 +1,16 @@
-.gradle/
-.idea/
-local.properties
-**/build/
-*.iml
-.DS_Store
+# Proprietary original game inputs (never commit to public repository)
+original/
+inputs/
+Swordigo.apk
+*.apk
+*.apkm
+*.aab
+*.jks
+*.keystore
+
+# Extracted original game resources and generated build outputs
+build/
+work/
+extracted/
+__pycache__/
+*.pyc
